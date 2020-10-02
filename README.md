@@ -51,6 +51,10 @@ print(mae(ytst, ypred))
 - **coef0**: float, default=1. Independent term in poly and sigmoid kernels. Ignored by other kernels.
 - **kernel_params**: mapping of string to any, default=None. Parameters (keyword arguments) and values for kernel passed as callable object. Ignored by other kernels.
 
+## Compatibility and dependencies
+
+The script is compatible with Python 3 and has been fully-tested in Python 3.7. `numpy` and `scikit-learn` libraries are needed. 
+
 ## References
 
 Shi, Y., Li, P., Yuan, H., Miao, J., & Niu, L. (2019). Fast kernel extreme learning machine for ordinal regression. Knowledge-Based Systems, 177, 44-54.
